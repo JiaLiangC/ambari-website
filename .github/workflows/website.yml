@@ -28,7 +28,7 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: asf-site
           publish_dir: ./build
           user_name: 'github-actions[bot]'
