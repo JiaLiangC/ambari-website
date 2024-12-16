@@ -20,7 +20,7 @@ ambari/
 
 Major components of Ambari reside in their own sub-folders under the root folder, to maintain clean separation of code.
 
-Folder | Components or Purpose
+Folder | Components or Purpos
 ------|---------------------
 ambari-server | Code for the main Ambari server which manages Hadoop through the agents installed on each node.
 ambari-agent  | Code for the Ambari agents which run on each node that the server above manages.
