@@ -103,6 +103,8 @@ const config = {
                 target: '_blank',
                 to: '/old/',
               },
+              /* Temporarily commented out because these two documents are too large and depend on the Ambari project generation.
+                 They cannot be treated as static files pushed to git, and they also block the GitHub workflow process.
               {
                 label: 'Swagger API Doc',
                 target: '_blank',
@@ -112,7 +114,7 @@ const config = {
                 label: 'Java Doc',
                 target: '_blank',
                 to: '/javadoc/apidocs',
-              },
+              },*/
               {
                 label: 'Project Team',
                 target: '_blank',
